@@ -1,0 +1,25 @@
+<div class="banner">
+  <h1>Restaurants You Might Like</h1>
+</div>
+
+
+
+<div class="container"></div>
+  <div class="row">
+    <% @restaurants.each do |restaurant| %>
+    <div class="col-xs-6 col-sm-4">
+      <div class="cards">
+        <div class="card">
+        <h2><%= restaurant.name %></h2>
+        <%= link_to "See details", restaurant_path(restaurant), class: "btn"%>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+<h3><%= link_to "Create a new Restaurant", new_restaurant_path, class: "btn" %></h3>
+

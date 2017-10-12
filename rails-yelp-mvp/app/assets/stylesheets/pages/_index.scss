@@ -1,0 +1,46 @@
+// Import page-specific CSS files here.
+@import "home";
+body {
+    background-color: #d8e7ff;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+
+}
+a {
+    color: #0B1D51;
+    text-decoration: none;
+}
+
+
+.btn {
+    background-color: #acc6ef;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 12px 12px;
+    font-size: 18px;
+    line-height: 1.428571429;
+    border-radius: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+}
+.banner {
+  background-color: #8295b5;
+  padding: 50px 50px;
+}
